@@ -36,6 +36,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 2vw;
   margin-left: 10px;
   display: table-cell; 
   vertical-align: middle; 
@@ -52,7 +53,7 @@ body {
   background-color: rgb(72, 0, 215);
   color: white;
   border: 1px solid white;
-  font-size: 1.5rem;
+  font-size: 2.5vw;
   cursor: pointer;
 }
 .header button:hover{
@@ -64,7 +65,7 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 2rem;
+  font-size: 2.5vw;
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
@@ -78,7 +79,7 @@ body {
   justify-content: center;
   width: 50%;
 }
-
+/* Myogai */
 .myogai{
   display: flex;
   align-items: center;
@@ -105,11 +106,45 @@ body {
 .myogai img{
   object-fit: contain;
   max-height: 100px;
-  border-radius: 20%;
+  border-radius: 10%;
 }
 .nameAndImg{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 
+/* Dicedemic */
+.dicedemic{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 10px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: rgb(50, 164, 1);
+  border: 1px solid rgb(206, 252, 171);
+}
+.nameAndImg{
+  display: flex;
+  height: 190px;
+  padding: 3%;
+}
+p{
+  font-size: 2.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1%;
+}
+.dicedemic img{
+  object-fit: contain;
+  max-height: 100px;
+  border-radius: 10%;
+}
+.nameAndImg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
