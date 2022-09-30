@@ -7,7 +7,7 @@ export const Header = () => {
 
   let messageArray = [
     "'You're one of the smartest people I know' - my sister",
-    "2x Time magazine 'Person of the Year'",
+    "2x Time magazine Person of the Year",
     "'I think you're doing a great job'- former co-worker",
     "'How do you make that?' -person wondering how I make 3D prints",
     "'你的中文很棒' - my Chinese teacher"
