@@ -1,7 +1,7 @@
 import React from "react";
 export const Dicedemic = () => {
   const handleClick = () => {
-    window.open("http://myogai.com");
+    window.open("http://dicedemic.com");
   };
   return (
     <div className="dicedemic">
