@@ -22,7 +22,7 @@ export const Content = () => {
   };
   useEffect(() => {
     getData();
-  }, []);
+  },);
   console.log("Data-------:", data);
   return (
     <div className="allCards">
