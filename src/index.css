@@ -13,7 +13,6 @@ body {
 }
 
 .header {
-  background-color: #222;
   width: 100%;
   color: white;
   display: flex;
@@ -22,9 +21,9 @@ body {
 }
 
 .header img {
-  max-width: 20%;
+  width: 20%;
   height: auto;
-  border-radius: 20%;
+  border-radius: 10%;
   margin: 10px;
 }
 /* .header h1{
@@ -89,32 +88,25 @@ body {
   font-size: 1.5rem;
   margin: 10px;
   padding: 10px;
-  height: 200px;
+  height: auto;
   border-radius: 10px;
   background-color: rgb(166, 0, 255);
   border: 1px solid white;
 }
-
-.nameAndImg p{
-  font-size: 5vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 3%;
-  margin: 0%;
-}
-.myogai img{
-  object-fit: contain;
-  max-height: 100px;
-  border-radius: 10%;
-}
-.nameAndImg{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  max-width: 30vw;
+/* media query to change to flex colomn */
+@media screen and (max-width: 600px) {
+  .myogai{
+    flex-direction: column;
+  }
+  .tiffany{
+    flex-direction: column;
+  }
+  .wyo3D{
+    flex-direction: column;
+  }
+  .dicedemic{
+    flex-direction: column;
+  }
 }
 
 /* Dicedemic */
@@ -126,24 +118,11 @@ body {
   font-size: 1.5rem;
   margin: 10px;
   padding: 10px;
-  height: 200px;
+  height: auto;
   border-radius: 10px;
   background-color: rgb(50, 164, 1);
   border: 1px solid rgb(206, 252, 171);
 }
-
-p{
-  font-size: 2.5vw;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 3%;
-}
-.dicedemic img{
-  object-fit: contain;
-  max-height: 100px;
-  border-radius: 10%;
-}
-
-
 
 /* Tiffany */
 .tiffany{
@@ -154,17 +133,12 @@ p{
   font-size: 1.5rem;
   margin: 10px;
   padding: 10px;
-  height: 200px;
+  height: auto;
   border-radius: 10px;
   background-color: rgb(250, 89, 242);
   border: 1px solid rgb(255, 0, 0);
 }
 
-.tiffany img{
-  object-fit: contain;
-  max-height: 100px;
-  border-radius: 10%;
-}
 
 /* Wyo 3D Print */
 .wyo3D{
@@ -175,19 +149,42 @@ p{
   font-size: 1.5rem;
   margin: 10px;
   padding: 10px;
-  height: 200px;
+  height: auto;
   border-radius: 10px;
   background-color: rgb(16, 3, 247);
   border: 1px solid rgb(0, 229, 255);
   color: white;
 }
-
-.wyo3D img{
+#wyo3dTitle{
+  color: white;
+}
+.nameAndImg{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  margin: 10px;
+}
+a p{
+  /* font-size: 2.5vw; */
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 100%;
+}
+img{
   object-fit: contain;
   max-height: 100px;
-  border-radius: 10%;
+  width: auto;
+  max-width: 100%;
+  border-radius: 5%;
 }
-#wyo3dTitle{
-  font-size: 30px;
-  color: white
+
+div p{
+  /* font-size: 2vw; */
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1%;
+  width: 100%;
 }

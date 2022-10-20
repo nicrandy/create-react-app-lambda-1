@@ -4,9 +4,9 @@ export const Wyo3D = () => {
     window.open("https://wyo3dprint.com/");
   };
   return (
-    <div className="wyo3D">
+    <div className="wyo3D" id="card">
       <p>
-        3D printed terrains, animal skulls, lithophanes, custom signage and more. Specializing in the making the world's most realistic 3D printed terrains.
+        3D printing: Custom designs including animal skulls, lithophanes, signage, hat buckles and more. Specializing in the making the world's most realistic 3D printed terrains.
         <br></br>Contribution: Owner and maker
         <br></br>Tech: 3D printing, painting, 3D modeling and design
       </p>

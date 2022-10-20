@@ -1,0 +1,42 @@
+﻿[
+        {
+            "title": "Myogai",
+            "type": "Web app",
+            "content": "The worlds most advanced yoga training platform. Blazepose cutting edge human pose estimation network combined with our secret method to calculate joint angles in 3D space. Compatible on mobile or PC.",
+            "contribution": "Project manager and full stack developer",
+            "tech": "React, Supabase, Mediapipe",
+            "url": "http://myogai.com",
+            "img": "https://i.pinimg.com/originals/64/41/61/644161b5ce15397473f2c4a49620ee8f.gif",
+            "imgAlt": "person doing a yoga pose"
+        },
+        {
+            "title": "Dicedemic",
+            "type": "Video game",
+            "content": "What happens when you combine Yahtzee, the COVID pandemic and Dark Souls? Dicedemic is what you get!",
+            "contribution": "Programmer and graphic artist",
+            "tech": "Godot, Aesprite",
+            "url": "http://dicedemic.com",
+            "img": "/media/dicedemic.png",
+            "imgAlt": "still from video game dicedemic"
+        },
+        {
+            "title": "Tiffany",
+            "type": "Robotics",
+            "content": "The world's only open source tracking camera. Designed to be used with the Luxonis OAK camera, but also compatible with any webcam. This tracking camera can move up-down-left-right to follow the user and record video for a presentation or other event.",
+            "contribution": "Project manager, 3D modeler, lead developer",
+            "tech": "Python, Arduino, 3D printing, OpenCV, Luxonis OAK",
+            "url": "https://github.com/nicrandy/tiffainy_track_cam",
+            "img": "https://i.ibb.co/qRtv1fY/Tiffany.png",
+            "imgAlt": "two tracking cameras"
+        },
+        {
+            "title": "Wyo3DPrint",
+            "type": "3D printing",
+            "content": "Custom designs including animal skulls, lithophanes, signage, hat buckles and more. Specializing in the making the world's most realistic 3D printed terrains.",
+            "contribution": "Owner and maker",
+            "tech": "3D printing, painting, 3D modeling and design",
+            "url": "https://wyo3dprint.com/",
+            "img": "https://i.ibb.co/JQKzHdd/Screenshot-18.png",
+            "imgAlt": "3D printed buffalo skull painted blue"
+        }
+]

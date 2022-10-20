@@ -18,7 +18,7 @@ export const Myogai = () => {
       </div>
 
       <p>
-        The worlds most advanced yoga training platform. Blazepose cutting edge human pose estimation network combined with our secret method to calculate joint angles in 3D space.
+        Web app: The worlds most advanced yoga training platform. Blazepose cutting edge human pose estimation network combined with our secret method to calculate joint angles in 3D space. Compatible on mobile or PC.
         <br></br>Contribution: Project manager and
         lead AI developer
         <br></br>Tech: React, Supabase, Mediapipe

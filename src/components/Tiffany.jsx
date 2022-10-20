@@ -18,7 +18,7 @@ export const Tiffany = () => {
       </div>
 
       <p>
-        The world's only open source tracking camera. Designed to be used with the Luxonis OAK camera, but also compatible with any webcam. This tracking camera can move up-down-left-right to follow the user and record video for a presentation or other event.        
+        Robotics: The world's only open source tracking camera. Designed to be used with the Luxonis OAK camera, but also compatible with any webcam. This tracking camera can move up-down-left-right to follow the user and record video for a presentation or other event.        
         <br></br>Contribution: Project manager, designer and
         lead developer
         <br></br>Tech: Python, Arduino, 3D printing, OpenCV, Luxonis OAK

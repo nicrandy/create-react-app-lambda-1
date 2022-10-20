@@ -6,7 +6,7 @@ export const Dicedemic = () => {
   return (
     <div className="dicedemic">
               <p>
-        What happens when you combine Yahtzee, the COVID pandemic and Dark Souls? Dicedemic is what you get! 
+        Video game: What happens when you combine Yahtzee, the COVID pandemic and Dark Souls? Dicedemic is what you get! 
         <br></br>Contribution: Programmer and graphic artist.
         <br></br>Tech: Godot, Aesprite
       </p>
